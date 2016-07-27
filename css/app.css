@@ -47,3 +47,25 @@ h2 {
 h3 {
     font-size: 15px;
 }
+
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}
+
+.navbar .navbar-center {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse-center {
+  text-align: center;
+}
+
+#langbar {
+    z-index: 2;
+}
+
+nav.navbar-secondary {
+    z-index: 1
+}
