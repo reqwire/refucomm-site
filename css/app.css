@@ -1,0 +1,49 @@
+body {
+    padding-top: 100px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+body, h1, h2, h3, p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+    padding-left: 20px;
+}
+
+
+li a {
+    padding-left: 20px;
+}
+
+a {
+    color: #DF4836;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+h2 {
+    border-top: 1px solid #ccc;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 40px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 15px;
+}

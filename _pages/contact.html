@@ -1,0 +1,58 @@
+---
+layout: default
+title: Contact
+permalink: /contact/
+---
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+             <h1>Contact us</h1>
+             <hr>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <ul>
+                <li><a href="mailto:{{ site.email }}"><h1>
+                    <span class="fa fa-envelope" aria-hidden="true"></span> <small>{{ site.email }}</small>
+                </h1></a></li>
+
+                <li><a href="http://www.refucomm.com"><h1>
+                    <span class="fa fa-globe" aria-hidden="true"></span> <small>http://refucomm.com</small>
+                </h1></a></li>
+
+                <li><a href="https://www.facebook.com/{{ site.facebook }}"><h1>
+                    <span class="fa fa-facebook" aria-hidden="true"></span> <small>Facebook</small>
+                </h1></a></li>
+
+                <li><a href="https://twitter.com/{{ site.twitter_username }}"><h1>
+                    <span class="fa fa-twitter" aria-hidden="true"></span> <small>Twitter</small>
+                </h1></a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-6">
+            <form action="https://formspree.io/harvey.t@mac.com" method="POST" class="">
+                <div class="form-group">
+                    <label for="name">Your name (required)</label>
+                    <input class="form-control" type="text" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your email address (required)</label>
+                    <input class="form-control" type="email" name="_replyto" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">Email subject</label>
+                    <input class="form-control" type="text" name="_subject">
+                </div>
+                <div class="form-group">
+                    <label for="name">Your message</label>
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <textarea rows="10" class="form-control" name="_message"></textarea>
+                </div>
+                <button type="submit" value="Send" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
