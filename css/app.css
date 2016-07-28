@@ -90,3 +90,12 @@ nav.navbar-secondary {
     clear: left;
     padding-top: 10px;
 }
+
+span.header_icon {
+    color: white;
+    background: #DF4836;
+    width: 30px;
+    margin-right: 10px;
+    padding: 7px 5px 5px;
+    text-align: center;
+}
