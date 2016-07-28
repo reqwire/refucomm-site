@@ -14,6 +14,20 @@ permalink: /greece/
             <h2>Asylum in greece - overview</h2>
             <a href="#">Asylum in Greece (Greek Asylum Office) – 20 Languages</a>
 
+            <div class="infopack">
+                {% show_title pre-registration_information %}
+                <ul>
+                {% for link in site.data.locations.greece-mainland.pre-registration_information.links %}
+                    <li><h3>{{ link.name }}</h3>
+                        <ul>
+                            {% for language in link.languages %}
+                                <li><a data-langs="{{ language }}" href="#">{{ language | extend_language_code }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                {% endfor %}
+                </ul>
+            </div>
 
             <h2>Pre-registration information</h2>
             <p>Official information from the Greek Asylum Office</p>
