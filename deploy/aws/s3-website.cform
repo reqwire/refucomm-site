@@ -31,17 +31,27 @@
                     "Statement": [ 
                         {
                             "Effect"   : "Allow",
-                            "Action"   : ["s3:ListBucket"],
-                            "Resource" : {"Fn::Join" : ["", ["arn:aws:s3:::", { "Ref" : "SssWebsiteBucket" }]]}
+                            "Action"   : [
+                                "s3:ListBucket"
+                            ],
+                            "Resource" : [
+                                {"Fn::Join" : ["", ["arn:aws:s3:::", { "Ref" : "SssWebsiteBucket" }]]}
+                            ]
                         },
                         {
                             "Effect"   : "Allow",
                             "Action"   : [
+                                "s3:Get*",
+                                "s3:List*",
+                                "s3:DeleteObject",
                                 "s3:PutObject",
-                                "s3:GetObject",
-                                "s3:DeleteObject"
+                                "s3:PutObjectAcl",
+                                "s3:PutObjectVersionAcl"
                             ],
-                            "Resource" : {"Fn::Join" : ["", ["arn:aws:s3:::", { "Ref" : "SssWebsiteBucket" },"/*"]]}
+                            "Resource" : [
+                                {"Fn::Join" : ["", ["arn:aws:s3:::", { "Ref" : "SssWebsiteBucket" }]]},
+                                {"Fn::Join" : ["", ["arn:aws:s3:::", { "Ref" : "SssWebsiteBucket" },"/*"]]}
+                            ]
                         }
                     ]
                 }
@@ -51,12 +61,8 @@
     },
     "Outputs": {
         "Bucketname": {
-            "Description": "Name of S3 bucket to hold website content",
+            "Description": "Name of S3 bucket to store website content",
             "Value": {"Ref": "SssWebsiteBucket" }
-        },
-        "BucketUrl": {
-            "Description": "URL to reach website on S3",
-            "Value": {"Fn::GetAtt": [ "SssWebsiteBucket", "WebsiteURL" ] }
         },
         "AccessKeyId": {
             "Description": "AccessKeyId for permission to write to S3 Website bucket",
@@ -65,6 +71,10 @@
         "SecretAccessKey": {
             "Description": "SecretAccessKey for permission to write to S3 Website bucket",
             "Value": {"Fn::GetAtt": [ "IamSssDeployAccessKey", "SecretAccessKey" ] }
+        },
+        "BucketUrl": {
+            "Description": "URL to reach website on S3",
+            "Value": {"Fn::GetAtt": [ "SssWebsiteBucket", "WebsiteURL" ] }
         }
     }
 }
