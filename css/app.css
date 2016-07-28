@@ -17,12 +17,6 @@ ul {
 
 li {
     list-style: none;
-    padding-left: 20px;
-}
-
-
-li a {
-    padding-left: 20px;
 }
 
 a {
@@ -36,16 +30,15 @@ h1 {
 }
 
 h2 {
-    border-top: 1px solid #ccc;
-    font-weight: 400;
+    color: #666;
+    font-weight: 600;
     font-size: 18px;
-    margin-top: 40px;
-    padding-top: 20px;
     text-transform: uppercase;
 }
 
 h3 {
     font-size: 15px;
+    font-weight: 400;
 }
 
 .goog-te-banner-frame.skiptranslate {
@@ -68,4 +61,32 @@ h3 {
 
 nav.navbar-secondary {
     z-index: 1
+}
+
+.infopack {
+    border-bottom: 1px solid #aaa;
+    clear: left;
+    overflow: auto;
+    padding: 5px 0 50px;
+}
+
+.language_list li,
+.link_list_item {
+    float: left;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.language_list li {
+    width: 150px;
+}
+
+.link_list_item a {
+    padding: 0 20px;
+    border-right: 1px solid #ccc;
+}
+
+.document_list h3 {
+    clear: left;
+    padding-top: 10px;
 }

@@ -3,12 +3,21 @@ module Jekyll
 
         def extend_language_code(input)
             codes = {
+                "ar" => "Arabic",
                 "en" => "English",
-                "fr" => "French",
                 "fa" => "Farsi",
+                "fr" => "French",
+                "kmj" => "Kurmanji",
+                "ku" => "Sorani (Kurdish)",
+                "pa" => "Pasto",
+                "ur" => "Urdu",
             }
             extended = codes[input]
-            return extended
+            if extended
+                return extended
+            else
+                return input
+            end
         end
 
     end
