@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/refucomm/refucomm-site.svg?branch=gh-pages)](https://travis-ci.org/refucomm/refucomm-site)
+[![Codeship Status for refucomm/refucomm-site](https://www.codeship.com/projects/57cc2ee0-3715-0134-3f56-36dc468776c7/status?branch=gh-pages)](https://www.codeship.com/projects/165719)
+
 
 # Refucomm
 ## The charity
