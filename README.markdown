@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/refucomm/refucomm-site.svg?branch=master)](https://travis-ci.org/refucomm/refucomm-site)
+
 # Refucomm
 ## The charity
 Refucomm provides vital information for refugees and volunteers.
