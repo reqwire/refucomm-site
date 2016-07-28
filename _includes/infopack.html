@@ -1,0 +1,19 @@
+<div class="infopack">
+    <h2>{{ site.data.locations.[include.location][include.section].title }}</h2>
+    <ul>
+    {% for link in site.data.locations.[include.location][include.section].links %}
+        <li><h3>{{ link.name }}</h3>
+            <ul>
+                {% for language in link.languages %}
+                    <li>
+                        <a data-langs="{{ language }}"
+                           href="/infopacks/{{include.location}}/{{include.section}}/{{link.name | slugify}}/{{language}}/file.pdf">
+                             {{ language | extend_language_code }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+    </ul>
+</div>

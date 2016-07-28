@@ -1,12 +1,11 @@
 module Jekyll
     class ShowTitle < Liquid::Tag
         def initialize(tag_name, input, tokens)
-            @section = input.strip
+            @title = input
         end
 
         def render(context)
-            title = context.registers[:site].data['locations']['greece-mainland'][@section]['title']
-            return "<h2>#{title}</h2><ul><li><a>Helo</a></li></ul>"
+            return "foo - #{@title} - foo"
         end
 
     end
