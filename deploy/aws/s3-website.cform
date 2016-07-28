@@ -1,0 +1,70 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "S3_Website with IAM deployment roles for use in codeship deployment pipeline",
+
+    "Resources": {
+        "SssWebsiteBucket": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+                "AccessControl": "PublicRead",
+                "WebsiteConfiguration": {
+                    "IndexDocument": "index.html"
+                }
+            }
+        },
+        "IamSssDeployAccessKey": {
+            "Type": "AWS::IAM::AccessKey",
+            "Properties": {
+                "UserName": {"Ref": "IamSssDeployUser"}
+            }
+        },
+        "IamSssDeployUser": {
+            "Type": "AWS::IAM::User"
+        },
+        "IamSssDeployPolicy": {
+            "Type": "AWS::IAM::Policy",
+            "Properties": {
+                "PolicyName": { "Fn::Join": ["-", ["DesployTo", { "Ref": "SssWebsiteBucket" } ]]},
+                "Users": [{ "Ref": "IamSssDeployUser" }],
+                "PolicyDocument": {
+                    "Version" : "2012-10-17",
+                    "Statement": [ 
+                        {
+                            "Effect"   : "Allow",
+                            "Action"   : ["s3:ListBucket"],
+                            "Resource" : {"Fn::Join" : ["", ["arn:aws:s3:::", { "Ref" : "SssWebsiteBucket" }]]}
+                        },
+                        {
+                            "Effect"   : "Allow",
+                            "Action"   : [
+                                "s3:PutObject",
+                                "s3:GetObject",
+                                "s3:DeleteObject"
+                            ],
+                            "Resource" : {"Fn::Join" : ["", ["arn:aws:s3:::", { "Ref" : "SssWebsiteBucket" },"/*"]]}
+                        }
+                    ]
+                }
+            }
+        }
+
+    },
+    "Outputs": {
+        "Bucketname": {
+            "Description": "Name of S3 bucket to hold website content",
+            "Value": {"Ref": "SssWebsiteBucket" }
+        },
+        "BucketUrl": {
+            "Description": "URL to reach website on S3",
+            "Value": {"Fn::GetAtt": [ "SssWebsiteBucket", "WebsiteURL" ] }
+        },
+        "AccessKeyId": {
+            "Description": "AccessKeyId for permission to write to S3 Website bucket",
+            "Value": {"Ref": "IamSssDeployAccessKey" }
+        },
+        "SecretAccessKey": {
+            "Description": "SecretAccessKey for permission to write to S3 Website bucket",
+            "Value": {"Fn::GetAtt": [ "IamSssDeployAccessKey", "SecretAccessKey" ] }
+        }
+    }
+}
