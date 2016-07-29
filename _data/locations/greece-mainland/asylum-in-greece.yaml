@@ -1,6 +1,9 @@
 title: Asylum in Greece
 icon: fa fa-exclamation
 docs:
+  - name: Your options in Greece
+    languages:
+      - en
   - name: Overview (Greek asylum office)
     languages:
       - 20 languages
