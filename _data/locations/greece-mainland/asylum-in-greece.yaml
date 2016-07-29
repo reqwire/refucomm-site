@@ -6,10 +6,11 @@ docs:
       - ar
       - en
       - fa
+      - ur
   - name: Overview (Greek asylum office)
     languages:
       - 20 languages
-  - name: How to Apply
+  - name: How to Apply for Asylum
     languages:
       - en
   - name: Preparing for your Asylum Interview
@@ -17,11 +18,13 @@ docs:
       - ar
       - en
       - fa
+      - ur
   - name: Information about the asylum Interview
     languages:
       - ar
       - en
       - fa
+      - ur
   - name: Appealing a Negative Decision
     languages:
       - ar
