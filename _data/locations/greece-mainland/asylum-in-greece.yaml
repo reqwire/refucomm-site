@@ -3,7 +3,9 @@ icon: fa fa-exclamation
 docs:
   - name: Your options in Greece
     languages:
+      - ar
       - en
+      - fa
   - name: Overview (Greek asylum office)
     languages:
       - 20 languages
@@ -12,13 +14,19 @@ docs:
       - en
   - name: Preparing for your Asylum Interview
     languages:
+      - ar
       - en
+      - fa
   - name: Information about the asylum Interview
     languages:
+      - ar
       - en
+      - fa
   - name: Appealing a Negative Decision
     languages:
+      - ar
       - en
+      - fa
   - name: Dublin III
     languages:
       - ar
