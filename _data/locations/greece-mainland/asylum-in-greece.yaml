@@ -4,3 +4,19 @@ docs:
   - name: Overview (Greek asylum office)
     languages:
       - 20 languages
+  - name: How to Apply
+    languages:
+  - name: Preparing for your Asylum Interview
+    languages:
+      - en
+  - name: Information about the asylum Interview
+    languages:
+      - en
+  - name: Appealing a Negative Decision
+    languages:
+      - en
+  - name: Dublin III
+    languages:
+      - ar
+      - en
+      - fr
