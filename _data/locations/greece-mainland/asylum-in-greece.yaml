@@ -5,7 +5,8 @@ docs:
     languages:
       - 20 languages
   - name: How to Apply
-    languages:
+    languages":
+      -en
   - name: Preparing for your Asylum Interview
     languages:
       - en
