@@ -16,7 +16,7 @@
                 {% for language in doc.languages %}
                     <li>
                         <a data-langs="{{ language }}"
-                           href="/infopacks/{{include.location}}/{{include.section}}/{{doc.name | slugify}}/{{language}}/file.pdf">
+                           href="/infopacks/{{include.location}}/{{include.section}}/{{doc.name | slugify}}/{{language | slugify}}/{{include.location}}_{{include.section}}_{{ doc.name | slugify }}_{{ language | slugify | upcase }}.pdf">
                              {{ language | extend_language_code }}
                         </a>
                     </li>

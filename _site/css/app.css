@@ -63,6 +63,10 @@ nav.navbar-secondary {
     z-index: 1
 }
 
+.language_selector {
+    cursor: pointer;
+}
+
 .infopack {
     border-bottom: 1px solid #aaa;
     clear: left;
