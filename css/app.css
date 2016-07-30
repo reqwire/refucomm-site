@@ -89,16 +89,20 @@ nav.navbar-secondary {
     margin: 5px;
 }
 
-.language_list li a {
+.language_list li a, .link_list_item a {
     display: block;
     width: 100%;
     padding: 10px 0;
 }
 
+.link_list_item {
+    margin: 5px;
+}
+
 .link_list_item a {
-    padding: 0 20px;
+    padding: 10px 20px;
     border-right: 1px solid #ccc;
-    line-height: 1.4em;
+
 }
 
 .document_list h3 {
