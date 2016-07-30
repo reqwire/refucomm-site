@@ -81,12 +81,18 @@ nav.navbar-secondary {
 .language_list li,
 .link_list_item {
     float: left;
-    padding-bottom: 5px;
     text-align: center;
 }
 
 .language_list li {
     width: 150px;
+    margin: 5px;
+}
+
+.language_list li a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
 }
 
 .link_list_item a {
@@ -105,7 +111,7 @@ span.header_icon {
     background: #DF4836;
     width: 30px;
     margin-right: 10px;
-    padding: 7px 5px 5px;
+    padding: 7px 5px 7px;
     text-align: center;
     margin-top: 20px;
     float: left;
