@@ -1,5 +1,11 @@
 <div class="infopack">
-    <h2><span class="header_icon {{ site.data.locations.[include.location][include.section].icon }}"></span>{{ site.data.locations.[include.location][include.section].title }}</h2>
+
+    <div class="row">
+        <div class="col-md-12">
+            <span class="header_icon {{ site.data.locations.[include.location][include.section].icon }}"></span>
+            <h2>{{ site.data.locations.[include.location][include.section].title }}</h2>
+        </div>
+    </div>
     <ul class="document_list">
     {% for link in site.data.locations.[include.location][include.section].links %}
         <li class="link_list_item">

@@ -10,6 +10,13 @@ Refucomm.top_nav_shim = function() {
     $('body').css('padding-top', top_pad + "px");
 };
 
+Refucomm.header_wrap = function() {
+    body_width = $('.col-md-12').width();
+    header_width = body_width - 40;
+    $('.infopack h2').width(header_width);
+};
+
 $(document).ready(function() {
   Refucomm.top_nav_shim();
+  Refucomm.header_wrap();
 });
