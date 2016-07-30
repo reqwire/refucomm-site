@@ -45,6 +45,10 @@ h3 {
     display: none !important;
 }
 
+.navbar-brand {
+    padding: 5px 0 0;
+}
+
 .navbar .navbar-center {
   display: inline-block;
   float: none;
