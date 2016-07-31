@@ -12,6 +12,7 @@ docs:
       - 20 languages
   - name: How to Apply for Asylum
     languages:
+      - ar
       - en
   - name: Preparing for your Asylum Interview
     languages:
