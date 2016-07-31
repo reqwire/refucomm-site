@@ -1,4 +1,4 @@
-[![Codeship Status for refucomm/refucomm-site](https://www.codeship.com/projects/57cc2ee0-3715-0134-3f56-36dc468776c7/status?branch=gh-pages)](https://www.codeship.com/projects/165719)
+[![Codeship Status for refucomm/refucomm-site](https://www.codeship.com/projects/57cc2ee0-3715-0134-3f56-36dc468776c7/status?branch=master)](https://www.codeship.com/projects/165719)
 
 
 # Refucomm
