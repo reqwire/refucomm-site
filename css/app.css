@@ -104,6 +104,10 @@ nav.navbar-secondary {
 
 }
 
+.document_list {
+    padding-left: 40px;
+}
+
 .document_list h3 {
     clear: left;
     padding-top: 10px;
