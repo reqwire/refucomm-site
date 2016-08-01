@@ -31,6 +31,7 @@ docs:
       - ar
       - en
       - fa
+      - ur
   - name: Dublin III
     languages:
       - ar
