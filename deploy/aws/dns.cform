@@ -1,0 +1,93 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "S3_Website with IAM deployment roles for use in codeship deployment pipeline",
+
+    "Parameters": {
+
+        "RootDomainName": {
+            "Description": "Domain name for your website (example.com)",
+            "Type": "String"
+        }
+    },
+
+    "Resources": {
+
+        "hostedZone": {
+            "Type" : "AWS::Route53::HostedZone",
+            "Properties" : {
+                "Name" : {"Ref": "RootDomainName"}
+            }
+        },
+
+        "zoneRecords": {
+            "Type": "AWS::Route53::RecordSetGroup",
+            "Properties": {
+                "HostedZoneId" : { "Ref": "hostedZone" },
+                "RecordSets" : [
+                    {
+                        "Type": "A",
+                        "Name": {"Ref": "RootDomainName"},
+                        "AliasTarget": {
+                            "HostedZoneId": "Z1BKCTXD74EZPE",
+                            "DNSName": "s3-website-eu-west-1.amazonaws.com"
+                        }
+                    },
+                    {
+                        "Type": "CNAME",
+                        "TTL": "300",
+                        "Name": {"Ref": "RootDomainName"},
+                        "Name": { "Fn::Join": [".", ["www", {"Ref":"RootDomainName"}]] },
+                        "ResourceRecords" : [ "www.refucomm.com.s3-website-eu-west-1.amazonaws.com" ]
+                    },
+                    {
+                        "Type": "CNAME",
+                        "TTL": "300",
+                        "Name": {"Ref": "RootDomainName"},
+                        "Name": { "Fn::Join": [".", ["preview", {"Ref":"RootDomainName"}]] },
+                        "ResourceRecords": [ "preview.refucomm.com.s3-website-eu-west-1.amazonaws.com" ]
+                    }
+                ]
+            }
+        },
+
+        "legacyZoneRecords": {
+            "Type" : "AWS::Route53::RecordSetGroup",
+            "Properties" : {
+                "HostedZoneId" : { "Ref": "hostedZone" },
+                "RecordSets" : [
+                    {
+                        "Type": "A",
+                        "TTL": "300",
+                        "Name": { "Fn::Join": [".", ["hostgator", {"Ref":"RootDomainName"}]] },
+                        "ResourceRecords": [ "50.87.151.34" ]
+                    },
+                    {
+                        "Type": "CNAME",
+                        "TTL": "300",
+                        "Name": { "Fn::Join": [".", ["mail", {"Ref":"RootDomainName"}]] },
+                        "ResourceRecords": [ { "Fn::Join": [".", ["hostgator", {"Ref":"RootDomainName"}]] } ]
+                    },
+                    {
+                        "Type": "CNAME",
+                        "TTL": "300",
+                        "Name": { "Fn::Join": [".", ["webmail", {"Ref":"RootDomainName"}]] },
+                        "ResourceRecords": [ { "Fn::Join": [".", ["hostgator", {"Ref":"RootDomainName"}]] } ]
+                    },
+                    {
+                        "Type": "CNAME",
+                        "TTL": "300",
+                        "Name": { "Fn::Join": [".", ["ftp", {"Ref":"RootDomainName"}]] },
+                        "ResourceRecords": [ { "Fn::Join": [".", ["hostgator", {"Ref":"RootDomainName"}]] } ]
+                    },
+                    {
+                        "Type": "CNAME",
+                        "TTL": "300",
+                        "Name": { "Fn::Join": [".", ["cpanel", {"Ref":"RootDomainName"}]] },
+                        "ResourceRecords": [ { "Fn::Join": [".", ["hostgator", {"Ref":"RootDomainName"}]] } ]
+                    }
+                ]
+            }
+        }
+
+    }
+}
