@@ -10,6 +10,7 @@ RefucommLang.change_language = function() {
 
 RefucommLang.set_language_cookie = function(lang_code) {
     document.cookie = "googtrans=/en/" + lang_code;
+    document.cookie = "googtrans=/en/" + lang_code + "; domain=" + window.location.hostname + "; path=/";
 };
 
 $(document).ready(function() {
