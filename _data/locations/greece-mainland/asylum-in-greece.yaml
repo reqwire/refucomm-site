@@ -12,7 +12,9 @@ docs:
       - 20 languages
   - name: What happens at what step (flowchart)
     languages:
+      - ar
       - en
+      - fa
   - name: How to Apply for Asylum
     languages:
       - ar
