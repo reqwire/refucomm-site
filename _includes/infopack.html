@@ -10,7 +10,7 @@
     {% for link in site.data.locations.[include.location][include.section].links %}
         <li class="link_list_item">
             <h3>
-                <a href="{{ link.href }}">
+                <a href="{{ link.href }}" data-linkname="{{include.location}}_{{include.section}}_{{ link.name | slugify }}">
                     {{ link.name }}
                 </a>
             </h3>
