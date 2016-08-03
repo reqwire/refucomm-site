@@ -17,6 +17,6 @@ Refucomm.header_wrap = function() {
 };
 
 $(document).ready(function() {
-  Refucomm.top_nav_shim();
-  Refucomm.header_wrap();
+    Refucomm.top_nav_shim();
+    Refucomm.header_wrap();
 });

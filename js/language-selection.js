@@ -1,11 +1,14 @@
 var RefucommLang = RefucommLang || {};
 
-RefucommLang.selected_lang = "";
-
 RefucommLang.change_language = function() {
   var lang_code = $(this).data('lang');
   RefucommLang.set_language_cookie(lang_code);
+  RefucommLang.record_language_event(lang_code);
   location.reload();
+};
+
+RefucommLang.record_language_event = function(lang) {
+    ga("send", "event", "website_navigation", "translate", lang);
 };
 
 RefucommLang.set_language_cookie = function(lang_code) {
