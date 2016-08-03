@@ -10,6 +10,9 @@ docs:
   - name: Asylum in greece overview (Greek asylum office)
     languages:
       - 20 languages
+  - name: What happens at what step (flowchart)
+    languages:
+      - en
   - name: How to Apply for Asylum
     languages:
       - ar
