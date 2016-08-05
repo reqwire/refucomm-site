@@ -5,6 +5,7 @@ docs:
     languages:
       - ar
       - en
+      - pa
   - name: Hospitals in Greece
     languages:
       - ar
