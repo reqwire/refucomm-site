@@ -40,8 +40,4 @@ docs:
   - name: Skype schedule
     languages:
       - en
-  - name: Victoria Square Information
-    languages:
-      - ar
-      - en
-      - fa
+      
