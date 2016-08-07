@@ -38,7 +38,7 @@ docs:
       - en
       - fr
       - pa
+      - ur
   - name: Skype schedule
     languages:
-      - en
-      - fa
+      - multilingual
