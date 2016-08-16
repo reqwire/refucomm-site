@@ -7,6 +7,11 @@ docs:
       - en
       - fa
       - ur
+  - name: legal pathways flowcharts
+    languages:
+      - ar
+      - en
+      - fa
   - name: Asylum in greece overview (Greek asylum office)
     languages:
       - 20 languages
