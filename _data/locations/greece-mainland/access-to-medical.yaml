@@ -13,3 +13,6 @@ docs:
   - name: Hospitals in Greece for chlidren
     languages:
       - en
+  - name: Who is eligible for free healthcare?
+    languages:
+      - fa
