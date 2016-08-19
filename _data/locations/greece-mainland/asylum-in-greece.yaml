@@ -11,7 +11,9 @@ docs:
     languages:
       - ar
       - en
+      - el
       - fa
+      - fr
   - name: Asylum in greece overview (Greek asylum office)
     languages:
       - 20 languages

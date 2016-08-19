@@ -5,6 +5,7 @@ module Jekyll
             codes = {
                 "ar" => "Arabic",
                 "en" => "English",
+                "el" => "Greek",
                 "fa" => "Farsi",
                 "fr" => "French",
                 "kmj" => "Kurmanji",
