@@ -4,7 +4,7 @@ Refucomm.record_document_get = function() {
     var href = $(this).attr('href'),
         document_name = $(this).data('documentname'),
         language = $(this).data('langs');
-    ga("send", "event", "infopack", "download", document_name, language);
+    ga("send", "event", "infopack-download", "download", document_name, language);
     ga("send", "event", "infopack", "translate", language);
 };
 
