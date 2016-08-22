@@ -128,3 +128,24 @@ span.header_icon {
     float: left;
     line-height: 1.4em
 }
+
+#langbutton.navbar-toggle {
+    color: #aaa;
+    border-color: white;
+    padding: 2px 12px 5px;
+}
+
+#langbutton p {
+    margin: 0;
+}
+
+#langbutton p span {
+    padding: 0;
+    margin: 0;
+    vertical-align: middle; 
+}
+
+#langbutton p span.fa-globe {
+    font-size: 1.5em;
+    margin-left: 7px;
+}
