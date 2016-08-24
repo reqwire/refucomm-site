@@ -12,7 +12,7 @@ RefucommLang.record_language_event = function(lang) {
 };
 
 RefucommLang.set_language_cookie = function(lang_code) {
-    document.cookie = "googtrans=/en/" + lang_code;
+    document.cookie = "googtrans=/en/" + lang_code + "; domain=" + window.location.hostname;
     document.cookie = "googtrans=/en/" + lang_code + "; domain=" + window.location.hostname + "; path=/";
 };
 
