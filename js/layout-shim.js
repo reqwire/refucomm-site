@@ -6,7 +6,6 @@ Refucomm.top_nav_shim = function() {
         $(this).css('top', top_pad + "px");
         top_pad = top_pad + $(this).height();
     });
-    top_pad = top_pad + 50; // once more to fix landscape mobile
     $('body').css('padding-top', top_pad + "px");
 };
 
