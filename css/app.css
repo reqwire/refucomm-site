@@ -1,5 +1,6 @@
 body {
     padding-top: 100px;
+    top:0 !important;
 }
 
 footer {
@@ -179,4 +180,9 @@ span.header_icon {
 
 .country .name {
     text-align: center
+}
+
+.full_translation {
+    background: #eee;
+    padding: 15px;
 }

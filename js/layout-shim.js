@@ -4,6 +4,7 @@ Refucomm.top_nav_shim = function() {
     var top_pad = 0;
     $('.navbar-fixed-top').each(function() {
         $(this).css('top', top_pad + "px");
+        console.log($(this).height());
         top_pad = top_pad + $(this).height();
     });
     $('body').css('padding-top', top_pad + "px");
