@@ -186,13 +186,8 @@ span.header_icon {
 .full_translation {
     background: #eee;
     padding: 15px;
-=======
+
 .video_list {
     clear: left;
     padding-left: 60px;
-}
-
-.video_list img {
-    width: 100px;
->>>>>>> master
 }
