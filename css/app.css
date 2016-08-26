@@ -192,3 +192,7 @@ span.header_icon {
     clear: left;
     padding-left: 60px;
 }
+
+.breadcrumb {
+    margin-top: 20px;
+}
