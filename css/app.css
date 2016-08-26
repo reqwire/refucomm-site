@@ -151,6 +151,7 @@ span.header_icon {
     margin-left: 7px;
 }
 
+<<<<<<< HEAD
 .location_select a {
     color: black;
 }
@@ -185,4 +186,13 @@ span.header_icon {
 .full_translation {
     background: #eee;
     padding: 15px;
+=======
+.video_list {
+    clear: left;
+    padding-left: 60px;
+}
+
+.video_list img {
+    width: 100px;
+>>>>>>> master
 }
