@@ -33,6 +33,12 @@ docs:
       - name: Farsi with English subtitles
         href: https://www.youtube.com/watch?v=XGQCqoeFeJs
         poster: https://i.ytimg.com/vi/XGQCqoeFeJs/hqdefault.jpg?custom=true&w=336&h=188&stc=true&jpg444=true&jpgq=90&sp=68&sigh=6da9ZF6OB37mNCAWSctrZcyRA9Q
+  - name: Written Statements
+    languages:
+      - fa
+      - ku
+      - pa
+      - ur
   - name: Information about the asylum Interview
     languages:
       - ar
