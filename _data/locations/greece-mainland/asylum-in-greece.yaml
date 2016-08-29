@@ -39,6 +39,13 @@ docs:
       - en
       - fa
       - ur
+  - name: Registration Appointment Locations
+    languages:
+      - en
+  - name: Registration Appointment schedule
+    languages:
+      - ar
+      - en
   - name: Appealing a Negative Decision
     languages:
       - ar
