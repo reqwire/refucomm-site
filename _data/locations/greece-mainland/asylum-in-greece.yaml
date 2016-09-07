@@ -17,12 +17,19 @@ docs:
   - name: Asylum in greece overview (Greek asylum office)
     languages:
       - 20 languages
-  - name: How to Apply for Asylum
+  - name: How to Apply for Asylum, relocation or family reunification
     languages:
       - ar
       - en
       - fa
       - ur
+  - name: Registration Appointment Locations
+    languages:
+      - en
+  - name: Registration Appointment schedule
+    languages:
+      - ar
+      - en
   - name: Preparing for your Asylum Interview
     languages:
       - ar
@@ -45,13 +52,6 @@ docs:
       - en
       - fa
       - ur
-  - name: Registration Appointment Locations
-    languages:
-      - en
-  - name: Registration Appointment schedule
-    languages:
-      - ar
-      - en
   - name: Appealing a Negative Decision
     languages:
       - ar
