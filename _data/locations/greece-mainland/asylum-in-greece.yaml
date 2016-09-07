@@ -23,16 +23,23 @@ docs:
       - en
       - fa
       - ur
-  - name: Registration Appointment Locations
-    languages:
-      - en
-  - name: Registration Appointment schedule
-    languages:
-      - ar
-      - en
   - name: Skype schedule
     languages:
       - multilingual
+  - name: Full Registration
+    languages:
+      - en
+  - name: Full Registration Questions and Answers
+    languages:
+      - en
+      - ar
+  - name: Registration Appointment Locations
+    languages:
+      - en
+  - name: Registration Appointment Schedule
+    languages:
+      - ar
+      - en
   - name: Preparing for your Asylum Interview
     languages:
       - ar
