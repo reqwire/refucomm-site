@@ -30,6 +30,9 @@ docs:
     languages:
       - ar
       - en
+  - name: Skype schedule
+    languages:
+      - multilingual
   - name: Preparing for your Asylum Interview
     languages:
       - ar
@@ -66,6 +69,3 @@ docs:
       - fr
       - pa
       - ur
-  - name: Skype schedule
-    languages:
-      - multilingual
