@@ -5,6 +5,7 @@ docs:
     languages:
       - ar
       - en
+      - fa
       - pa
   - name: Hospitals in Greece
     languages:
@@ -13,6 +14,3 @@ docs:
   - name: Hospitals in Greece for chlidren
     languages:
       - en
-  - name: Who is eligible for free healthcare?
-    languages:
-      - fa
