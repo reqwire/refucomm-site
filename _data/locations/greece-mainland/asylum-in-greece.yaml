@@ -30,6 +30,7 @@ docs:
     languages:
       - ar
       - en
+      - fa
   - name: Full Registration Questions and Answers
     languages:
       - ar
