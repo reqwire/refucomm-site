@@ -28,11 +28,12 @@ docs:
       - multilingual
   - name: Full Registration
     languages:
+      - ar
       - en
   - name: Full Registration Questions and Answers
     languages:
-      - en
       - ar
+      - en
   - name: Registration Appointment Locations
     languages:
       - en
@@ -52,6 +53,8 @@ docs:
         poster: https://i.ytimg.com/vi/XGQCqoeFeJs/hqdefault.jpg?custom=true&w=336&h=188&stc=true&jpg444=true&jpgq=90&sp=68&sigh=6da9ZF6OB37mNCAWSctrZcyRA9Q
   - name: Written Statements
     languages:
+      - ar
+      - en
       - fa
       - ku
       - pa
