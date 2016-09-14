@@ -16,7 +16,15 @@ Refucomm.header_wrap = function() {
     $('.infopack h2').width(header_width);
 };
 
+Refucomm.set_carousel_slide = function() {
+    $('.carousel-slide').each(function() {
+        var img_src = $(this).data('image-src');
+        $(this).css('background-image', 'url(' + img_src + ')');
+    });
+};
+
 $(document).ready(function() {
     Refucomm.top_nav_shim();
     Refucomm.header_wrap();
+    Refucomm.set_carousel_slide();
 });
