@@ -11,18 +11,36 @@ docs:
     languages:
       - ar
       - en
-      - el
       - fa
       - fr
   - name: Asylum in greece overview (Greek asylum office)
     languages:
       - 20 languages
-  - name: How to Apply for Asylum
+  - name: How to Apply for Asylum, relocation or family reunification
     languages:
       - ar
       - en
       - fa
       - ur
+  - name: Skype schedule
+    languages:
+      - multilingual
+  - name: Full Registration
+    languages:
+      - ar
+      - en
+      - fa
+  - name: Full Registration Questions and Answers
+    languages:
+      - ar
+      - en
+  - name: Registration Appointment Locations
+    languages:
+      - en
+  - name: Registration Appointment Schedule
+    languages:
+      - ar
+      - en
   - name: Preparing for your Asylum Interview
     languages:
       - ar
@@ -35,6 +53,8 @@ docs:
         poster: https://i.ytimg.com/vi/XGQCqoeFeJs/hqdefault.jpg?custom=true&w=336&h=188&stc=true&jpg444=true&jpgq=90&sp=68&sigh=6da9ZF6OB37mNCAWSctrZcyRA9Q
   - name: Written Statements
     languages:
+      - ar
+      - en
       - fa
       - ku
       - pa
@@ -45,13 +65,6 @@ docs:
       - en
       - fa
       - ur
-  - name: Registration Appointment Locations
-    languages:
-      - en
-  - name: Registration Appointment schedule
-    languages:
-      - ar
-      - en
   - name: Appealing a Negative Decision
     languages:
       - ar
@@ -66,6 +79,3 @@ docs:
       - fr
       - pa
       - ur
-  - name: Skype schedule
-    languages:
-      - multilingual

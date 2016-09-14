@@ -4,22 +4,6 @@ docs:
   - name: Asylum in greece overview (Greek asylum office)
     languages:
       - 20 languages
-  - name: How to Apply for Asylum
-    languages:
-      - ar
-      - en
-      - fa
-      - ur
-  - name: Preparing for your Asylum Interview
-    languages:
-      - ar
-      - en
-      - fa
-      - ur
-    videos:
-      - name: Farsi with English subtitles
-        href: https://www.youtube.com/watch?v=XGQCqoeFeJs
-        poster: https://i.ytimg.com/vi/XGQCqoeFeJs/hqdefault.jpg?custom=true&w=336&h=188&stc=true&jpg444=true&jpgq=90&sp=68&sigh=6da9ZF6OB37mNCAWSctrZcyRA9Q
   - name: Written Statements
     languages:
       - fa
