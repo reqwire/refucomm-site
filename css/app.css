@@ -32,6 +32,10 @@ a {
     color: #DF4836;
 }
 
+.alert a {
+    color: inherit;
+}
+
 hr {
     display: block;
     height: 1px;
@@ -224,6 +228,10 @@ span.header_icon {
     margin-top: 40px;
 }
 
+#youtube {
+    margin-top: 40px;
+}
+
 
 .feature_img {
     border: 1px solid #ccc;
@@ -238,3 +246,16 @@ span.header_icon {
     margin-bottom: 60px;
 }
 
+.top_logo {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.top_logo img {
+    width: 90%;
+}
+
+
+.jumbotron {
+    background: white;
+}

@@ -1,31 +1,68 @@
 ---
-layout: landing
+layout: brochure
 ---
 
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12">
-            <h1 class="text-center">About Refucomm</h1>
+{% include full_translation.html %}
 
-            <p>RefuComm is a humanitarian organisation created by a group of independent volunteers who work with refugees in Europe.</p>
-            <p>We were founded by Sharon Silvey and Florian in October 2015 from a field in Croatia.</p>
-            <p>We operate in some of the world’s most vulnerable places. Our work is concentrated in the areas of caring for women, children and unaccompanied minors. We provide much needed assistance to individuals and communities that have been affected by war, conflict and the cycle of poverty.</p>
-            <p><a href="/about" class="lead">Click here for more about what we do</a></p>
-
-            <hr>
-
-            <h2>In the press</h2>
-            <p>RefuComm, our work and our members have featured in articles and new pieces in the following places:</p>
-            <div class="text-center">
-                <img alt="press logos" class="press_logos" src="/img/press-logos.png" width="90%">
-            </div>
-
+<nav class="navbar navbar-default" id="navbar-flex-fix">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
         </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a target="_blank" href="https://www.facebook.com/{{ site.facebook }}"><span class="fa fa-facebook-official"></span> Facebook</a></li>
+                <li><a target="_blank" href="https://twitter.com/{{ site.twitter_username }}"><span class="fa fa-twitter"></span> Twitter</a></li>
+                <li><a target="_blank" href="https://youtube.com/channel/{{ site.youtube_channel }}"><span class="fa fa-youtube"></span> Youtube</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/greece">Information for refugees</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#press">Press</a></li>
+                <li><a href="#social">Social</a></li>
+                <li><a href="/contact/">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <div class="alert alert-info text-center" role="alert"> <a href="/greece/"><span class="fa fa-info-circle"></span> - <strong>Information for refugees</strong> - Click here to see the latest information on asylum, relocation and reunification in Greece.</a> </div>
+    <div class="row">
+        <div class="top_logo col-xs-12" ">
+            <img src="https://github.com/refucomm/logos-branding/raw/master/logo/RGB/RefuComm_Logo_RGB.png">
+        </div>
+    </div>
+    <div class="jumbotron">
+        <p>&ldquo;In our hearts we know that with a different fate, we, too, could be in the ranks of the dispossessed, stripped of our identities and belonging nowhere. The refugee becomes a sinister symbol of what can quickly happen once personhood is denied and people are transformed into disposable units of contemptible impediments to the greed or power-mongering of others.&rdquo;</p>
     </div>
 
     <hr>
 
-    <div class="row">
+    <div class="row" id="about">
+        <div class="col-xs-12">
+            <h1 class="text-center">About Refucomm</h1>
+                <p>Our mission is to provide refugees with knowledge about their rights and obligations and the administrative and legal processes. We believe that knowledge empowers refugees to make decisions and take back some control over their lives.</p>
+                <p>While providing humanitarian aid, we realized that a gap existed: Information for migrating refugees was practically non-existent. Refugees we met along the route were consistent in their questions.</p>
+                <p>Over the next six months, tens of thousands of refugees in Greece will be having asylum and relocation or family reunification interviews at the Greece Asylum Service office in Athens. We are embarking on an ambitious plan to help refugees prepare for these potentially life-changing interviews.</p>
+                <p>Refucomm is responding to the crisis of information in Greece. We get up-to-date information to refugees in over 5 languages about relocation, family reunification, asylum, appeals and refugee options in Greece. Without us there is no constant, accurate and translated information available to all refugees in Greece.</p>
+                <p><a href="/about" class="lead">Click here for more about what we do</a></p>
+        </div>
+
+
+    </div>
+
+    <hr>
+
+    <div class="row" id="team">
         <div class="col-xs-12">
             <h2>The team.</h2>
             <p>We add to our resources all the time. For example, in August we translated and posted information about the work rules in Greece for non-residents. We provide all information in printable versions for distribution to the refugees by volunteers from our team and other information teams at the camps and squats. </p>
@@ -41,13 +78,13 @@ layout: landing
                 <div class="col-lg-3 text-center">
                     <img alt="name" class="img-circle team-headshot" src="/img/headshots/kai-kitschler.jpg" width="140" height="140">
                     <h3>Kai Kitschler</h3>
-                    <p>A short, 140 character bio about the person, their role with Refucomm and their location</p>
+                    <p>As a former team and project manager, Kai creates structures and develops ideas to make teams work better together. With hands-on experience in the field, he's great at motivation of teams.</p>
                 </div>
 
                 <div class="col-lg-3 text-center">
                     <img alt="name" class="img-circle team-headshot" src="/img/headshots/hani-atweh.jpg" width="140" height="140">
                     <h3>Hani Atweh</h3>
-                    <p>He's a Syrian Palestinian born in Damascus, he moved to munich Germany in 2015 to work as a volunteer after studying in Tishreen University.</p>
+                    <p>Hani always keeps the bigger picture in mind. As a Refugee, he knows what the people really need. He always shows up with innovative ideas about how to reach our goal in providing information for those who need it.</p>
                 </div>
 
                 <div class="col-lg-3 text-center">
@@ -67,9 +104,9 @@ layout: landing
                 </div>
 
                 <div class="col-lg-3 text-center">
-                    <img alt="name" class="img-circle team-headshot" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="140" height="140">
-                    <h3>Sylvia Hanslik</h3>
-                    <p>A short, 140 character bio about the person, their role with Refucomm and their location</p>
+                    <img alt="name" class="img-circle team-headshot" src="/img/headshots/pip-lambert.jpg" width="140" height="140">
+                    <h3>Pip Lambert</h3>
+                    <p>A background in international TV and marketing helps Pip focus on the value of strategy, communication techniques and planning to help fill the information gap in Greece</p>
                 </div>
 
                 <div class="col-lg-3 text-center">
@@ -92,43 +129,61 @@ layout: landing
 
     <hr>
 
-    <div class="row">
-        <div class="col-xs-10 offset-xs-1 col-md-4">
+    <div class="row" id="press">
+        <div class="col-xs-12">
 
-            <h2>Latest Facebook activity</h2>
-            <p>All of the latest news is published on our Facebook page, be sure to &rsquo;Like&lsquo; and follow all of our news</p>
-            <div class="fb-container">
-                <div class="fb-page" data-href="https://www.facebook.com/RefuComm-communication-and-information-for-refugees-145594569125687" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/RefuComm-communication-and-information-for-refugees-145594569125687" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/RefuComm-communication-and-information-for-refugees-145594569125687">RefuComm communication and information for refugees</a></blockquote></div>
+
+            <h2>In the press</h2>
+            <p>RefuComm, our work and our members have featured in articles and new pieces in the following places:</p>
+            <div class="text-center">
+                <img alt="press logos" class="press_logos" src="/img/press-logos.png" width="90%">
             </div>
-
-        </div>
-
-        <div class="col-xs-12 col-md-8">
-            
-            <h2>Latest Videos</h2>
-            <p>Video interview about the asylum interview</p>
-            <iframe class="youtube-embed" height="400" width="100%" src="https://www.youtube.com/embed/9x5Y2SPk4Lw" frameborder="0" allowfullscreen></iframe>
-            <p><a class="lead" href="https://www.youtube.com/channel/UCgxoiWtizRFBdJhInUeNllw">Check our YouTube page for more of our video content</a></p>
 
         </div>
     </div>
 
     <hr>
 
-    <div class="row">
+    <div class="row" id="social">
         <div class="col-xs-12 col-md-8">
-            <h2>Our partners</h2>
-            <p>Collaboration is at the core of how we can be more effective in providing aid. We work with the following partners to enhance our mission:</p>
-            <ul>
-                <li>Partner Name 1</li>
-                <li>Partner Name 2</li>
-            </ul>
+            <h2>Latest Videos</h2>
+            <p>Starting in August 2016, we have been created refugee information audio files and videos in Arabic, Farsi, Kurmanji, Urdu - with more to come. Have a look at <ahref="https://www.youtube.com/channel/UCgxoiWtizRFBdJhInUeNllw">our YouTube channel for all of our content.</a></p>
+            <p>Here are some of the most recent videos we have helped to create</p>
+            <div class="row" id="youtube">
+                <div class="col-xs-6">
+                    <iframe width="80%" height="160" src="https://www.youtube.com/embed/ngGxAaEte-c" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-xs-6">
+                    <iframe width="80%" height="160" src="https://www.youtube.com/embed/CP8NoK_kcd8" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-6">
+                    <iframe width="80%" height="160" src="https://www.youtube.com/embed/VOtmXCMa-Hs" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-xs-6">
+                    <iframe width="80%" height="160" src="https://www.youtube.com/embed/6y5emq7BNf4" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
         </div>
 
-        <div class="col-xs-10 offset-xs-1 col-md-4 text-center">
-            <img alt="press logos" class="press_logos" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="90%">
+        <div class="col-xs-10 offset-xs-1 col-md-4">
+
+            <h2>Latest Facebook activity</h2>
+            <p>All of the latest news is published on our Facebook page</p>
+            <p>Be sure to &rsquo;Like&lsquo; and follow all of our news</p>
+            <hr>
+            <div class="fb-container">
+                <div class="fb-page" data-href="https://www.facebook.com/RefuComm-communication-and-information-for-refugees-145594569125687" data-tabs="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/RefuComm-communication-and-information-for-refugees-145594569125687" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/RefuComm-communication-and-information-for-refugees-145594569125687">RefuComm communication and information for refugees</a></blockquote></div>
+            </div>
+
         </div>
+
     </div>
+
+    <hr>
 
 </div>
 
