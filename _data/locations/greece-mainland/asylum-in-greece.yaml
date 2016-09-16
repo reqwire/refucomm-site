@@ -37,10 +37,6 @@ docs:
   - name: Registration Appointment Locations
     languages:
       - en
-  - name: Registration Appointment Schedule
-    languages:
-      - ar
-      - en
   - name: Preparing for your Asylum Interview
     languages:
       - ar
@@ -79,3 +75,6 @@ docs:
       - fr
       - pa
       - ur
+links:
+  - name: Registration schedule search
+    href: https://search.rescueapp.org/
