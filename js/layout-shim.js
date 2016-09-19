@@ -16,7 +16,21 @@ Refucomm.header_wrap = function() {
     $('.infopack h2').width(header_width);
 };
 
+Refucomm.navbar_fix_on_scroll = function() {
+    var lang_height = $('.full_translation').height() + 38,
+        scroll_amount = $(document).scrollTop();
+
+    if ( scroll_amount > lang_height) {
+        console.log("boom");
+        $("#navbar-flex-fix").addClass('navbar-fixed-top');
+    }
+    else {
+        $("#navbar-flex-fix").removeClass('navbar-fixed-top');
+    }
+};
+
 $(document).ready(function() {
     Refucomm.top_nav_shim();
     Refucomm.header_wrap();
+    $(window).scroll(Refucomm.navbar_fix_on_scroll);
 });
