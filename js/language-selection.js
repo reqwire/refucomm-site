@@ -12,19 +12,8 @@ RefucommLang.record_language_event = function(lang) {
 };
 
 RefucommLang.set_language_cookie = function(lang_code) {
-    // Delete cookies to remove old implementations
-    var the_past = "Thu, 01 Jan 1970 00:00:00 UTC";
-    document.cookie = "googtrans=; expires=" + the_past + "; domain=" + window.location.hostname;
-    document.cookie = "googtrans=; expires=" + the_past + "; domain=" + window.location.hostname + "; path=/";
-    // Create language cookie
-    if (lang_code != 'en'){
-        document.cookie = "googtrans=/en/" + lang_code + "; domain=" + window.location.hostname;
-        document.cookie = "googtrans=/en/" + lang_code + "; domain=" + window.location.hostname + "; path=/";
-    }
-    else {
-        document.cookie = "googtrans=; domain=" + window.location.hostname;
-        document.cookie = "googtrans=; domain=" + window.location.hostname + "; path=/";
-    }
+    document.cookie = "googtrans=/en/" + lang_code + "; expires=; domain=" + window.location.hostname + "; path=/";
+    document.cookie = "googtrans=/en/" + lang_code + "; expires=; path=/";
 };
 
 $(document).ready(function() {
