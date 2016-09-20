@@ -34,6 +34,8 @@ docs:
     languages:
       - ar
       - en
+      - fa
+      - ur
   - name: Registration Appointment Locations
     languages:
       - en
