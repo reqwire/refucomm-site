@@ -12,6 +12,11 @@ RefucommLang.record_language_event = function(lang) {
 };
 
 RefucommLang.set_language_cookie = function(lang_code) {
+    // Delete cookies to remove old implementations
+    var the_past = "Thu, 01 Jan 1970 00:00:00 UTC";
+    document.cookie = "googtrans=; expires=" + the_past + "; domain=" + window.location.hostname;
+    document.cookie = "googtrans=; expires=" + the_past + "; domain=" + window.location.hostname + "; path=/";
+    // Create language cookie
     document.cookie = "googtrans=/en/" + lang_code + "; domain=" + window.location.hostname;
     document.cookie = "googtrans=/en/" + lang_code + "; domain=" + window.location.hostname + "; path=/";
 };
