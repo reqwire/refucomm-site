@@ -17,8 +17,14 @@ RefucommLang.set_language_cookie = function(lang_code) {
     document.cookie = "googtrans=; expires=" + the_past + "; domain=" + window.location.hostname;
     document.cookie = "googtrans=; expires=" + the_past + "; domain=" + window.location.hostname + "; path=/";
     // Create language cookie
-    document.cookie = "googtrans=/en/" + lang_code + "; domain=" + window.location.hostname;
-    document.cookie = "googtrans=/en/" + lang_code + "; domain=" + window.location.hostname + "; path=/";
+    if (lang_code != 'en'){
+        document.cookie = "googtrans=/en/" + lang_code + "; domain=" + window.location.hostname;
+        document.cookie = "googtrans=/en/" + lang_code + "; domain=" + window.location.hostname + "; path=/";
+    }
+    else {
+        document.cookie = "googtrans=; domain=" + window.location.hostname;
+        document.cookie = "googtrans=; domain=" + window.location.hostname + "; path=/";
+    }
 };
 
 $(document).ready(function() {
