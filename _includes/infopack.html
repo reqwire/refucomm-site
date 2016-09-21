@@ -1,22 +1,18 @@
+{% for section in site.data.locations.[include.location].sections %}
 <div class="infopack">
-
-    <span class="header_icon {{ site.data.locations.[include.location][include.section].icon }}"></span>
-    <h2>{{ site.data.locations.[include.location][include.section].title }}</h2>
-
-    <ul class="document_list">
-    {% for link in site.data.locations.[include.location][include.section].links %}
-        <li class="link_list_item">
-            <h3>
-                <a href="{{ link.href }}" data-linkname="{{include.location}}_{{include.section}}_{{ link.name | slugify }}" target="_blank">
-                    {{ link.name }}
-                </a>
-            </h3>
-        </li>
-    {% endfor %}
-    {% for doc in site.data.locations.[include.location][include.section].docs %}
-        <li><h3>{{ doc.name }}</h3>
-            <ul class="language_list">
-                {% for language in doc.languages %}
+    <span class="header_icon {{ section.icon }}"></span>
+    <h2>{{ section.title }}</h2>
+    <ul class="link_list">
+    {% for link in section.links %}
+        <li>
+            {% if link.type == 'pdf' %}
+                <h3>
+                    <a class="pdf_name">
+                        {{ link.name }}
+                    </a>
+                </h3>
+                <ul class="language_list">
+                {% for language in link.languages %}
                     <li>
                         <a data-langs="{{ language }}"
                            data-documentname="{{include.location}}_{{include.section}}_{{ doc.name | slugify }}"
@@ -25,19 +21,16 @@
                         </a>
                     </li>
                 {% endfor %}
-            </ul>
-            {% if doc.videos %}
-            <ul class="video_list">
-                <h5>Videos</h5>
-                {% for video in doc.videos %}
-                    <li>
-                        <a href="{{ video.href }}" target="_blank" data-label="{{include.location}}_{{include.section}}_{{ doc.name | slugify }}_{{ video.name | slugify }}">{{ video.name }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
+                </ul>
+            {% elsif link.type == 'website' %}
+                <h3>
+                    <a href="{{ link.href }}">
+                        {{ link.name }}
+                    </a>
+                </h3>
             {% endif %}
         </li>
     {% endfor %}
     </ul>
-
 </div>
+{% endfor %}

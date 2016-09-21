@@ -27,8 +27,15 @@ Refucomm.navbar_fix_on_scroll = function() {
     }
 };
 
+Refucomm.show_pdf_languages = function() {
+    $('.pdf_name').click(function() {
+        $(this).parents('li').children('ul').toggle();
+    });
+};
+
 $(document).ready(function() {
     Refucomm.top_nav_shim();
     Refucomm.header_wrap();
     $(window).scroll(Refucomm.navbar_fix_on_scroll);
+    Refucomm.show_pdf_languages();
 });

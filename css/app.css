@@ -30,6 +30,7 @@ li {
 
 a {
     color: #DF4836;
+    cursor: pointer;
 }
 
 .alert a {
@@ -103,6 +104,10 @@ nav.navbar-secondary {
     padding: 5px 0 50px;
 }
 
+.language_list {
+    display: none;
+}
+
 .language_list li,
 .link_list_item {
     float: left;
@@ -129,11 +134,11 @@ nav.navbar-secondary {
 
 }
 
-.document_list {
+.link_list {
     padding-left: 40px;
 }
 
-.document_list h3 {
+.link_list h3 {
     clear: left;
     padding-top: 10px;
 }
