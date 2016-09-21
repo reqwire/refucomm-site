@@ -10,3 +10,8 @@ docs:
       - kmj
       - ku
       - ur
+  - name: Education for children
+    languages:
+      - ar
+      - fa
+      - ur
