@@ -52,6 +52,6 @@ def generate_dirs_from_yaml(file_path)
 end
 
 
-Dir.glob('_data/**/*.yaml') do |file_path|
+Dir.glob('_data/locations/*.yaml') do |file_path|
   generate_dirs_from_yaml file_path
 end
