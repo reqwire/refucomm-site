@@ -1,0 +1,119 @@
+section: An overview of your options in greece
+icon: fa fa-opera
+links:
+  - name: Your options in greece
+    type: pdf
+    languages:
+      - ar
+      - en
+      - fa
+      - ur
+  - name: Legal pathways flowcharts
+    type: pdf
+    languages:
+      - en
+  - name: Dublin III
+    type: pdf
+    languages:
+      - en
+  - name: Asylum in greece overview
+    type: pdf
+    languages:
+      - en
+
+section: How to apply for Asylum, relocation or family reunion
+icon: fa fa-question
+links:
+  - name: How to apply
+  - name: Skype schedule
+  - name: Full registration
+  - name: Questions and Answers about full registration
+  - name: Appointment schedules for full registration
+  - name: Locations for full registration
+  - name: Rights and obligatoins of people seeking international protection
+  - name: Website of the Greek Asylum Office
+
+section: Preparing for your asylum interview
+icon: fa fa-book
+links:
+  - name: Preparing for your asylum interview
+  - name: Written statements
+  - name: Why Turkey is not a safe country for you
+
+section: What happens at the asylum interview
+icon: fa fa-cog
+links:
+  - name: Information about the Asylum interview
+
+section: How to appeal a negative descision
+icon: fa fa-gavel
+links:
+  - name: Appealing a negative descision
+
+section: Family reunification
+icon: fa fa-users
+links:
+  - name: Overview
+
+section: Relocation
+icon: fa fa-plane
+links:
+  - name: Questions and Answers about relocation
+  - name: Relocation for Iraqis
+  - name: Relocation tracking tool
+  - name: EASO relocation app
+
+section: Special immigrant visas for translators from Irag and Afghanistan
+icon: fa fa-life-ring
+links:
+  - name: 
+
+section: Deportation reporting and assistance
+icon: fa fa-hand-o-right
+links:
+  - name: Returnwatch
+
+section: Assisted voluntary returns
+icon: fa fa-sign-out
+links:
+  - name: Overview
+  - name: What happens to Syrians when they are returned to Turkey
+
+section: Missing persons
+icon: fa fa-search
+links:
+  - name: Trace the face website
+  - name: Red cross website
+
+section: Vulnerable people
+icon: fa fa-diamond
+links:
+  - name: Vulnerability checker tool
+  - name: LBGT support
+  - name: Unaccompanied Minors
+
+section: Living in greece
+icon: fa fa-home
+links:
+  -name: Emergency numbers
+  -name: Health
+  -name: Education
+  -name: Housing
+  -name: Travel
+  -name: Employment and startups
+  -name: Social benefits
+  -name: Legal help
+  -name: Language learning
+  -name: Transport
+  -name: Athens victoria square map
+
+section: Information for volunteers
+icon: fa fa-info
+links:
+  -name: Camps in Greece
+  -name: Volunteering in Greece
+  -name: Phrase book
+  -name: Internews
+  -name: News Deeply
+  -name: Are You Syrious
+
