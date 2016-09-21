@@ -3,13 +3,12 @@
 require 'fileutils'
 require 'yaml'
 
-def get_location_section_from_path(file_path)
+def get_location_from_path(file_path)
     split_path = file_path.split('/')
 
-    location = sluggify(split_path[-2])
-    section = sluggify(split_path[-1].split(".")[0])
+    location = split_path[-1].split('.')[0]
     
-    return location, section
+    return location
 end
 
 def sluggify(string)
@@ -32,20 +31,22 @@ end
 
 
 def generate_dirs_from_yaml(file_path)
-    location, section = get_location_section_from_path(file_path)
+    location = sluggify(get_location_from_path(file_path))
 
     file_data = YAML.load_file(file_path)
 
-    docs = file_data["docs"]
-    if docs
-        for doc in docs
-            document_name = sluggify(doc["name"])
-            for language in doc["languages"]
-                language = sluggify(language)
-                infopack_document_dir = "infopacks/#{location}/#{section}/#{document_name}/#{language}/"
-
-                FileUtils.mkdir_p(infopack_document_dir)
-                rename_pdf(infopack_document_dir, language, location, section, document_name)
+    for section in file_data['sections']
+        section_name = sluggify(section['title'])
+        for link in section['links']
+            if link['type'] == "pdf"
+                link_name = sluggify(link['name'])
+                for language in link['languages']
+                    lang = sluggify(language)
+                    infopack_document_dir = "infopacks/#{location}/#{section_name}/#{link_name}/#{lang}/"
+                    FileUtils.mkdir_p(infopack_document_dir)
+                    
+                    rename_pdf(infopack_document_dir, lang, location, section_name, link_name)
+                end
             end
         end
     end

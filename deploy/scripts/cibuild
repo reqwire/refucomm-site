@@ -3,4 +3,4 @@ set -e
 
 bundle exec rake doc_translation_coverage
 bundle exec jekyll build --trace
-# bundle exec htmlproofer ./_site/ --check-html --disable-external
+bundle exec htmlproofer ./_site/ --check-html --disable-external

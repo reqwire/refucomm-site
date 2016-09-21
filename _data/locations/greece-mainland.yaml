@@ -153,7 +153,7 @@ sections:
         type: website
         href: http://www.easo.europa.eu/news-events/press-release-easo-launches-‘eu-relocation-programme’-mobile-app
 
-  - title: Special immigrant visas for translators from Irag and Afghanistan
+  - title: Special immigrant visas for translators from Iraq and Afghanistan
     icon: fa fa-language
     links:
       - name: Overview
@@ -234,7 +234,7 @@ sections:
         languages:
           - ar
           - en
-      - name: Children's hospitals
+      - name: Hospitals for childresn
         type: pdf
         languages:
           - en
@@ -247,8 +247,6 @@ sections:
           - ar
           - fa
           - ur
-      - name: Housing
-        type: missing
       - name: Public transport for refugees
         type: website
         href: https://newsthatmoves.org/en/is-public-transportation-free-for-refugees-in-greece/
@@ -263,10 +261,6 @@ sections:
         type: pdf
         languages:
           - en
-      - name: Language learning
-        type: missing
-      - name: Travel
-        type: missing
       - name: Athens victoria square map
         type: pdf
         languages:
@@ -281,13 +275,15 @@ sections:
         type: website
         href: http://geochoros.survey.ntua.gr/ekepy/
       - name: Volunteering in Greece
-        type: missing
-      - name: Phrase book
-        type: missing
+        type: website
+        href: http://www.greecevol.info
 
   - title: News sources
     icon: fa fa-newspaper-o
     links:
+      - name: RefuComm Facebook
+        type: website
+        href: https://www.facebook.com/refucomm/
       - name: Internews
         type: website
         href: https://internews.org

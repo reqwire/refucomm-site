@@ -16,7 +16,7 @@
                     <li>
                         <a data-langs="{{ language }}"
                            data-documentname="{{include.location}}_{{include.section}}_{{ doc.name | slugify }}"
-                           href="/infopacks/{{include.location}}/{{include.section}}/{{doc.name | slugify}}/{{language | slugify}}/{{include.location}}_{{include.section}}_{{ doc.name | slugify }}_{{ language | slugify | upcase }}.pdf">
+                           href="/infopacks/{{include.location}}/{{section.title | slugify}}/{{link.name | slugify}}/{{language | slugify}}/{{include.location}}_{{section.title | slugify}}_{{ link.name | slugify }}_{{ language | slugify | upcase }}.pdf">
                              {{ language | extend_language_code }}
                         </a>
                     </li>
