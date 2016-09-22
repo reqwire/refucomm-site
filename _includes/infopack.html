@@ -28,6 +28,8 @@
                         {{ link.name }}
                     </a>
                 </h3>
+            {% elsif link.type == 'subheading' %}
+                <h4>{{ link.name }}</h4>
             {% endif %}
         </li>
     {% endfor %}

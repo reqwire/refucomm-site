@@ -212,6 +212,8 @@ sections:
   - title: Living in greece
     icon: fa fa-home
     links:
+      - name: Emergency Contacts
+        type: subheading
       - name: Emergency phone numbers
         type: website
         href: http://refugees.gr/en1/wp-content/uploads/2016/06/Emergency-Phone-Numbers.pdf
@@ -219,6 +221,9 @@ sections:
         type: pdf
         languages:
           - en
+
+      - name: Health
+        type: subheading
       - name: Access to healthcare
         type: pdf
         languages:
@@ -241,32 +246,86 @@ sections:
       - name: Psychlogical support
         type: website
         href: http://refugees.gr/en1/wp-content/uploads/2016/06/Psychological-Support.pdf
+      
+      - name: Education
+        type: subheading
       - name: Education for childresn
         type: pdf
         languages:
           - ar
           - fa
           - ur
+      - name: Education for Adults
+        type: website
+        href: http://refugees.gr/en1/wp-content/uploads/2016/06/Education-and-training.pdf
+      - name: Greek lessons for refugees
+        type: website
+        href: http://refugees.gr/en1/wp-content/uploads/2016/06/Greek-Language-Lessons.pdf
+
+      - name: Housing
+        type: subheading
+      - name: Accomodation
+        type: website
+        href: http://refugees.gr/en1/wp-content/uploads/2016/06/Accommodation.pdf
+
+      - name: Travel
+        type: subheading
+      - name: Travel documents tracker from Greek Asylum Service
+        type: website
+        href: http://asylo.gov.gr/en/?page_id=1289
+
+      - name: Food and clothing
+        type: subheading
+      - name: Food and clothing
+        type: website
+        href: http://refugees.gr/en1/wp-content/uploads/2016/06/Alimentation-and-Clothing.pdf
+
+      - name: Employment
+        type: subheading
+      - name: Working in greece
+        type: pdf
+        languages:
+          - ar
+          - en
+          - fa
+          - fr
+          - kmj
+          - ku
+          - ur
+
+      - name: Legal help
+        type: subheading
+      - name: Legal help
+        type: pdf
+        languages:
+          - en
+
+      - name: transport
+        type: subheading
       - name: Public transport for refugees
         type: website
         href: https://newsthatmoves.org/en/is-public-transportation-free-for-refugees-in-greece/
       - name: Athens transport
         type: website
         href: http://www.athenstransport.com/english/
-      - name: Skillshare Athens
-        type: website
-        href: https://www.facebook.com/skillshareathens/
-      - name: Social benefits
-      - name: Legal help
-        type: pdf
-        languages:
-          - en
       - name: Athens victoria square map
         type: pdf
         languages:
           - ar
           - en
           - fa
+
+      - name: Initiatives for refugees living in Greece
+        type: subheading
+      - name: Sole
+        type: website
+        href: http://solegreece.org/
+      - name: The Cube
+        type: website
+        href: https://www.facebook.com/cubeathens/
+      - name: Khore Community Center
+        type: website
+        href: https://www.facebook.com/KhoraAthens
 
   - title: Information for volunteers
     icon: fa fa-info
