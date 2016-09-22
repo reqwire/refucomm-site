@@ -1,0 +1,119 @@
+sections:
+  - title: Admissibilty
+    icon: fa fa-exclamation
+    links:
+      - name: Self help information
+        type: pdf
+        languages:
+          - ar
+          - en
+      - name: What happens at what step (flowchart)
+        type: pdf
+        languages:
+          - ar
+          - en
+  - title: Asylum in Greece
+    icon: fa fa-exclamation
+    links:
+      - name: Asylum in greece overview (Greek asylum office)
+        type: pdf
+        languages:
+          - 20 languages
+      - name: Written Statements
+        type: pdf
+        languages:
+          - fa
+          - ku
+          - pa
+          - ur
+      - name: Information about the asylum Interview
+        type: pdf
+        languages:
+          - ar
+          - en
+          - fa
+          - ur
+      - name: Appealing a Negative Decision
+        type: pdf
+        languages:
+          - ar
+          - en
+          - fa
+          - ur
+      - name: Dublin III
+        type: pdf
+        languages:
+          - ar
+          - en
+          - fa
+          - fr
+          - pa
+          - ur
+  - title: Family reunification
+    icon: fa fa-child
+    links:
+      - name: Overview
+        type: pdf
+        languages:
+          - ar
+          - en
+          - fr
+          - fa
+          - ku
+  - title: Living in Greece
+    icon: fa fa-home
+    links:
+      - name: Working in Greece
+        type: pdf
+        languages:
+          - ar
+          - en
+          - fr
+          - kmj
+          - ku
+          - ur
+  - title: Deportation reporting and assistance
+    icon: fa fa-hand-o-right
+    links:
+      - name: Returnwatch
+        type: pdf
+        languages:
+          - ar
+          - en
+          - fa
+          - fr
+          - ur
+  - title: Assisted voluntary returns - IOM
+    icon: fa fa-plane
+    links:
+      - name: Overview
+        type: pdf
+        languages:
+          - Multilingual
+          - ku
+          - ur
+      - name: What happens to Syrians when they are returned to Turkey
+        type: pdf
+        languages:
+          - en
+  - title: Rights and obligations of people seeking international protection in greece
+    icon: fa fa-gavel
+    links:
+      - name: Overview
+        type: pdf
+        languages:
+          - ar
+          - en
+          - fa
+      - name: Greek asylum office website - Multilingual
+        type: website
+        href: http://asylo.gov.gr/en/?page_id=471
+  - title: Missing persons - Red Cross
+    icon: fa fa-plus-square
+    links:
+      - name: Overview
+        type: pdf
+        languages:
+          - ar
+          - en
+          - fa
