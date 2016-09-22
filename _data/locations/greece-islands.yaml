@@ -1,5 +1,5 @@
 sections:
-  - title: Admissibilty
+  - title: Admissibility
     icon: fa fa-exclamation
     links:
       - name: Self help information
@@ -83,7 +83,7 @@ sections:
           - fa
           - fr
           - ur
-  - title: Assisted voluntary returns - IOM
+  - title: Assisted voluntary returns
     icon: fa fa-plane
     links:
       - name: Overview
@@ -108,7 +108,7 @@ sections:
       - name: Greek asylum office website - Multilingual
         type: website
         href: http://asylo.gov.gr/en/?page_id=471
-  - title: Missing persons - Red Cross
+  - title:  Red Cross missing persons
     icon: fa fa-plus-square
     links:
       - name: Overview
