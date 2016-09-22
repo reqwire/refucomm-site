@@ -30,6 +30,7 @@ li {
 
 a {
     color: #DF4836;
+    cursor: pointer;
 }
 
 .alert a {
@@ -64,6 +65,11 @@ h2 {
 h3 {
     font-size: 15px;
     font-weight: 400;
+}
+
+h4.subheading {
+    margin-top: 80px;
+    margin-left: -20px;
 }
 
 .goog-te-banner-frame.skiptranslate {
@@ -103,6 +109,10 @@ nav.navbar-secondary {
     padding: 5px 0 50px;
 }
 
+.language_list {
+    display: none;
+}
+
 .language_list li,
 .link_list_item {
     float: left;
@@ -129,11 +139,11 @@ nav.navbar-secondary {
 
 }
 
-.document_list {
+.link_list {
     padding-left: 40px;
 }
 
-.document_list h3 {
+.link_list h3 {
     clear: left;
     padding-top: 10px;
 }
