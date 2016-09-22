@@ -249,7 +249,7 @@ sections:
       
       - name: Education
         type: subheading
-      - name: Education for childresn
+      - name: Education for children
         type: pdf
         languages:
           - ar
