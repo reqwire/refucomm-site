@@ -14,6 +14,7 @@ sections:
         languages:
           - ar
           - en
+          - el
           - fa
           - fr
       - name: Dublin III
@@ -21,6 +22,7 @@ sections:
         languages:
           - ar
           - en
+          - el
           - fa
           - fr
           - pa
@@ -28,7 +30,7 @@ sections:
       - name: Asylum in greece overview
         type: pdf
         languages:
-          - 20 languages
+          - 18 languages
 
   - title: How to apply for Asylum, relocation or family reunion
     icon: fa fa-question
@@ -49,12 +51,14 @@ sections:
         languages:
           - ar
           - en
+          - el
           - fa
       - name: Questions and Answers about full registration
         type: pdf
         languages:
           - ar
           - en
+          - el
           - fa
           - ur
       - name: Appointment schedules for full registration
@@ -69,6 +73,7 @@ sections:
         languages:
           - ar
           - en
+          - el
           - fa
       - name: Website of the Greek Asylum Office
         type: website
@@ -118,6 +123,7 @@ sections:
         languages:
           - ar
           - en
+          - el
           - fa
           - ur
 
@@ -129,6 +135,7 @@ sections:
         languages:
           - ar
           - en
+          - el
           - fr
           - fa
           - ku
@@ -141,6 +148,7 @@ sections:
         languages:
           - ar
           - en
+          - el
       - name: Relocation for Iraqis
         type: pdf
         languages:
@@ -152,6 +160,9 @@ sections:
       - name: EASO relocation app
         type: website
         href: http://www.easo.europa.eu/news-events/press-release-easo-launches-‘eu-relocation-programme’-mobile-app
+      - name: Athens Map - hospitality centre Eleonas
+        type: website
+        href: http://asylo.gov.gr/en/wp-content/uploads/2015/11/Directions_eleonas_2.png
 
   - title: Special immigrant visas for translators from Iraq and Afghanistan
     icon: fa fa-language
@@ -181,6 +192,9 @@ sections:
           - Multilingual
           - ku
           - ur
+      - name: Map of how to get to Ahten IOM office
+        type: website
+        href: http://asylo.gov.gr/en/wp-content/uploads/2015/11/Directions_iom.png
       - name: What happens to Syrians when they are returned to Turkey
         type: pdf
         languages:
@@ -239,7 +253,7 @@ sections:
         languages:
           - ar
           - en
-      - name: Hospitals for childresn
+      - name: Hospitals for children
         type: pdf
         languages:
           - en
