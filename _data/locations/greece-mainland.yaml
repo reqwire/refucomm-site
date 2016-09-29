@@ -260,6 +260,9 @@ sections:
       - name: Psychlogical support
         type: website
         href: http://refugees.gr/en1/wp-content/uploads/2016/06/Psychological-Support.pdf
+      - name: Doctors without borders clinic
+        type: website
+        href: https://www.google.gr/maps/place/Solomou+133,+Athina+104+32/@37.9873952,23.7254075,17z/data=!3m1!4b1!4m16!1m10!4m9!1m6!1m2!1s0x14a1bd31dd73ee81:0x86b0a6d5a7ba150a!2sSolomou+133,+Athina+104+32!2m2!1d23.7275962!2d37.9873952!1m0!3e2!3m4!1s0x14a1bd31dd73ee81:0x86b0a6d5a7ba150a!8m2!3d37.9873952!4d23.7275962
       
       - name: Education
         type: subheading
@@ -344,9 +347,12 @@ sections:
   - title: Information for volunteers
     icon: fa fa-info
     links:
-      - name: Camps in Greece
+      - name: Camps in Greece - Ministry of health
         type: website
         href: http://geochoros.survey.ntua.gr/ekepy/
+      - name: Camps in Greece - UNHCR
+        type: website
+        href: http://rrse-smi.maps.arcgis.com/apps/MapSeries/index.html?appid=d5f377f7f6f2418b8ebadaae638df2e1
       - name: Volunteering in Greece
         type: website
         href: http://www.greecevol.info
