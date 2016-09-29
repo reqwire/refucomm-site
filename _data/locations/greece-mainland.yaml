@@ -222,6 +222,15 @@ sections:
       - name: LBGT support
         type: website
         href: https://www.facebook.com/LGBTrefugeesathens/
+      - name: Colour Youth - Athens LGBT Youth Community
+        type: website
+        href: http://colouryouth.gr/en/
+      - name: Greek Transgender Association
+        type: website
+        href: http://www.transgender-association.gr
+      - name: OLKE - Gay and Lesbian Community Greece
+        type: website
+        href: http://www.olke.org
 
   - title: Living in greece
     icon: fa fa-home
