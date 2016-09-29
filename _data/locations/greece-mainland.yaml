@@ -2,13 +2,16 @@ sections:
   - title: An overview of your options in greece
     icon: fa fa-opera
     links:
-      - name: Your options in greece
+      - name: Your options in Greece
         type: pdf
         languages:
           - ar
           - en
           - fa
           - ur
+      - name: Your options in Greece - Video in Arabic
+        type: website
+        href: https://www.youtube.com/watch?v=d6InSfQn-Xs
       - name: Legal pathways flowcharts
         type: pdf
         languages:
@@ -53,6 +56,9 @@ sections:
           - en
           - el
           - fa
+      - name: Full registration process - Video in Farsi
+        type: website
+        href: https://www.youtube.com/watch?v=6y5emq7BNf4
       - name: Questions and Answers about full registration
         type: pdf
         languages:
@@ -89,9 +95,15 @@ sections:
           - en
           - fa
           - ur
-      - name: Preparing for your asylum interview Video
+      - name: Preparing for your asylum interview - Video in Arabic
+        type: website
+        href: https://www.youtube.com/watch?v=JH1I7TbajwE
+      - name: Preparing for your asylum interview - Video in Farsi
         type: website
         href: https://www.youtube.com/watch?v=XGQCqoeFeJs
+      - name: Preparing for your asylum interview - Video in Kurmanji
+        type: website
+        href: https://www.youtube.com/watch?v=jGTjNjx1vzg
       - name: Written statements
         type: pdf
         languages:
@@ -106,6 +118,9 @@ sections:
         languages:
           - ar
           - en
+      - name: Why Turkey is not a safe country for you - Video
+        type: website
+        href: https://www.youtube.com/watch?v=CP8NoK_kcd8
 
   - title: What happens at the asylum interview
     icon: fa fa-cog
