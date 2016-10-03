@@ -61,10 +61,10 @@ sections:
           - el
           - fa
           - ur
-      - name: Appointment schedules for full registration
+      - name: Full registration search tool
         type: website
         href: https://search.rescueapp.org/
-      - name: Locations for full registration
+      - name: Full registration locations
         type: pdf
         languages:
           - en
@@ -192,7 +192,7 @@ sections:
           - Multilingual
           - ku
           - ur
-      - name: Map of how to get to Ahten IOM office
+      - name: Map of how to get to Athens IOM office
         type: website
         href: http://asylo.gov.gr/en/wp-content/uploads/2015/11/Directions_iom.png
       - name: What happens to Syrians when they are returned to Turkey
@@ -349,7 +349,7 @@ sections:
       - name: The Cube
         type: website
         href: https://www.facebook.com/cubeathens/
-      - name: Khore Community Center
+      - name: Khora Community Center
         type: website
         href: https://www.facebook.com/KhoraAthens
 
