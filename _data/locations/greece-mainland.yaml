@@ -61,13 +61,22 @@ sections:
           - el
           - fa
           - ur
+      - name: Full registration questions you may be asked
+        type: pdf
+        languages:
+          - ar
+          - en
+          - fa
+          - ur
       - name: Full registration search tool
         type: website
         href: https://search.rescueapp.org/
       - name: Full registration locations
         type: pdf
         languages:
+          - ar
           - en
+          - fa
       - name: Rights and obligations of people seeking international protection
         type: pdf
         languages:
@@ -103,6 +112,7 @@ sections:
         languages:
           - ar
           - en
+          - fa
 
   - title: What happens at the asylum interview
     icon: fa fa-cog
@@ -198,6 +208,7 @@ sections:
       - name: What happens to Syrians when they are returned to Turkey
         type: pdf
         languages:
+          - ar
           - en
 
   - title: Missing persons
@@ -299,6 +310,9 @@ sections:
       - name: Travel documents tracker from Greek Asylum Service
         type: website
         href: http://asylo.gov.gr/en/?page_id=1289
+      - name: Decisions on travel documents
+        type: website
+        href: http://asylo.gov.gr/en/wp-content/uploads/2016/08/DecisionsTDV-12.08.16.pdf
 
       - name: Food and clothing
         type: subheading
