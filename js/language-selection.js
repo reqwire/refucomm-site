@@ -7,7 +7,12 @@ RefucommLang.change_language = function() {
   
   var link_href = $(this).attr('href');
 
-  window.location.href = link_href;
+  if (link_href) {
+        window.location.href = link_href;
+    }
+  else {
+      location.reload();
+    }
 };
 
 RefucommLang.record_language_event = function(lang) {
