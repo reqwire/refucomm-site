@@ -74,25 +74,36 @@ layout: home
 
     <div class="row">
         <div class="col-sm-6 col-xs-12">
-            <h2>Newest Videos</h2>
+            <h2>New Video</h2>
 
-            {% for row in site.data.new_content.videos %}
-                <ul class="row new-vidoes">
-                    {% for video in row.videos %}
-                    <li class="col-sm-4 col-xs-12 text-center">
-                        <a href="{{ video.href }}">
-                            <img src="{{ video.thumbnail }}" class="video_thumbnail" alt="{{ video.name }}">
-                            <p>{{ video.name }}</p>
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            {% endfor %}
+            <ul class="row new-vidoes">
+                {% for video in site.data.new_content.videos %}
+                <li class="col-sm-4 col-xs-12 text-center fixed-height">
+                    <a href="{{ video.href }}">
+                        <img src="{{ video.thumbnail }}" class="video_thumbnail" alt="{{ video.name }}">
+                        <p>{{ video.name }}</p>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
 
+            <hr>
+            <h2>New Audio</h2>
+
+            <ul class="row new-vidoes">
+                {% for video in site.data.new_content.audios %}
+                <li class="col-sm-4 col-xs-12 text-center fixed-height">
+                    <a href="{{ video.href }}">
+                        <img src="{{ video.thumbnail }}" class="video_thumbnail" alt="{{ video.name }}">
+                        <p>{{ video.name }}</p>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
         </div>
 
         <div class="col-sm-6 col-xs-12">
-            <h2>Newest Information</h2>
+            <h2>New Information</h2>
 
             <ul class="row" id="new-documents">
                 {% for doc in site.data.new_content.documents %}
@@ -103,6 +114,17 @@ layout: home
                 </li>
                 {% endfor %}
             </ul>
+
+            <h2>Coming soon</h2>
+
+            <ul class="row">
+                <li><p>Information about the Syria fast Track Process</p></li>
+                <li><p>Information about relocation and counties you may be relocated to!</p></li>
+                <li><p>RefuComm Volunteer Training!</p></li>
+                <li><p>RefuComm workshops for refugees on preparing for the asylum interview! </p></li>
+                <li><p>RefuComm Educational resources for language teaching and language learning</p></li>
+            </ul>
+
         </div>
     </div>
 </div>

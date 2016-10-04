@@ -6,7 +6,7 @@ html {
 body {
     padding-top: 10px;
     /* Margin bottom by footer height */
-    margin-bottom: 60px;
+    padding-bottom: 90px;
 }
 
 body, h1, h2, h3, p {
@@ -353,8 +353,6 @@ span.header_icon {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: white;
-  padding-top: 30px;
 }
 
 .clear {

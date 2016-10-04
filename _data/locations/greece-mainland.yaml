@@ -77,6 +77,10 @@ sections:
           - ar
           - en
           - fa
+      - name: Full registration appointment list until end of April 2017
+        type: pdf
+        languages:
+          - Multilingual
       - name: Rights and obligations of people seeking international protection
         type: pdf
         languages:
