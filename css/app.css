@@ -271,4 +271,22 @@ span.header_icon {
     margin-top: 70px;
 }
 
+.navbar-default .navbar-nav li.highlight a {
+    background-color: #DF4836;
+    color: white;
+    font-weight: 800;
+}
 
+#top_facebook {
+    margin-right: 20px;
+    font-size: 2em;
+}
+
+#top_twitter {
+    margin-left: 20px;
+    font-size: 2em;
+}
+
+.video_thumbnail {
+    width: 75%;
+}

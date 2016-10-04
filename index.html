@@ -4,9 +4,13 @@ layout: home
 <div class="container">
     <br>
     <div class="row text-center">
-        <a href="/"><p class="hidden-xl hidden-lg hidden-sm">
-            <img src="/img/refucomm_logo_small.png" alt="RefuComm">
-        </p></a>
+        <p class="hidden-xl hidden-lg hidden-sm">
+            <a id="top_facebook" target="_blank" href="https://www.facebook.com/{{ site.facebook }}"><span class="fa fa-facebook-official"></span></a>
+            <a href="/">
+                <img src="/img/refucomm_logo_small.png" alt="RefuComm">
+            </a>
+            <a id="top_twitter" target="_blank" href="https://twitter.com/{{ site.twitter_username }}"><span class="fa fa-twitter"></span></a>
+        </p>
     </div>
 </div>
 
@@ -52,9 +56,9 @@ layout: home
                 </div>
                 <div id="navbar" class="text-center">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="/greece">Donate</a></li>
                         <li><a href="/about/">About RefuComm</a></li>
                         <li><a href="/contact/">Contact Us</a></li>
+                        <li class="highlight"><a href="https://www.youcaring.com/families-disabled-and-unaccompanied-minors-stuck-in-idomeni-569855">Donate</a></li>
                     </ul>
                 </div>
             </div>
@@ -63,3 +67,40 @@ layout: home
     </div>
 </div>
 
+<div class="container">
+    <h1>What's new at RefuComm</h1>
+
+    <div class="row">
+        <div class="col-sm-6 col-xs-12">
+            <h2>Newest Videos</h2>
+
+            {% for row in site.data.new_content.videos %}
+                <ul class="row" id="new-vidoes">
+                    {% for video in row.videos %}
+                    <li class="col-sm-4 col-xs-12 text-center">
+                        <a href="{{ video.href }}">
+                            <img src="{{ video.thumbnail }}" class="video_thumbnail">
+                            <p>{{ video.name }}</p>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            {% endfor %}
+
+        </div>
+
+        <div class="col-sm-6 col-xs-12">
+            <h2>Newest Documents</h2>
+
+            <ul class="row" id="new-documents">
+                {% for doc in site.data.new_content.documents %}
+                <li class="col-xs-12">
+                    <a href="{{ doc.href }}">
+                        <p>{{ doc.name }}</p>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
