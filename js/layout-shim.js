@@ -15,7 +15,22 @@ Refucomm.show_pdf_languages = function() {
     });
 };
 
+Refucomm.fix_wrap_height = function() {
+    var max_group_height = 0;
+    $('.fixed-height').each(function() {
+        var this_height = $(this).height();
+        if (this_height > max_group_height){
+            max_group_height = this_height
+        }
+    })
+
+    $('.fixed-height').each(function() {
+        $(this).height(max_group_height);
+    })
+}
+
 $(document).ready(function() {
     Refucomm.header_wrap();
     Refucomm.show_pdf_languages();
+    Refucomm.fix_wrap_height();
 });
