@@ -1,10 +1,12 @@
-body {
-    padding-top: 10px;
+html {
+  position: relative;
+  min-height: 100%;
 }
 
-footer {
-    margin-top: 100px;
-    font-size: 1.4em;
+body {
+    padding-top: 10px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
 }
 
 body, h1, h2, h3, p {
@@ -28,7 +30,7 @@ li {
 }
 
 a {
-    color: #DF4836;
+    color: #C3171E;
     cursor: pointer;
 }
 
@@ -149,7 +151,7 @@ nav.navbar-secondary {
 
 span.header_icon {
     color: white;
-    background: #DF4836;
+    background: #C3171E;
     width: 30px;
     margin-right: 10px;
     padding: 7px 5px 7px;
@@ -271,7 +273,7 @@ span.header_icon {
 }
 
 .navbar-default .navbar-nav li.highlight a {
-    background-color: #DF4836;
+    background-color: #C3171E;
     color: white;
     font-weight: 800;
 }
@@ -338,4 +340,14 @@ span.header_icon {
 #collapse-filler {
     width: 250px;
     height: 40px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: white;
+  padding-top: 30px;
 }
