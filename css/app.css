@@ -335,3 +335,7 @@ span.header_icon {
       display:block !important;
   }
 }
+#collapse-filler {
+    width: 250px;
+    height: 40px;
+}
