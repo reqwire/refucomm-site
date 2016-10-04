@@ -280,13 +280,17 @@ span.header_icon {
 }
 
 #top_facebook {
-    margin-right: 20px;
+    margin-right: 10px;
     font-size: 2em;
 }
 
 #top_twitter {
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 2em;
+}
+
+#top_logo {
+    width: 190px;
 }
 
 .video_thumbnail {
