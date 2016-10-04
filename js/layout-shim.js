@@ -1,31 +1,13 @@
 var Refucomm = Refucomm || {};
 
-Refucomm.top_nav_shim = function() {
-    var top_pad = 0;
-    $('.navbar-fixed-top').each(function() {
-        $(this).css('top', top_pad + "px");
-        top_pad = top_pad + $(this).height();
-    });
-    $('body').css('padding-top', top_pad + "px");
-};
-
 Refucomm.header_wrap = function() {
+    // Sets the icon beside the H2 in the infopack pages
+    // Otherwise it sits above on narrow devices
     body_width = $('.col-md-12').width();
     header_width = body_width - 40;
     $('.infopack h2').width(header_width);
 };
 
-Refucomm.navbar_fix_on_scroll = function() {
-    var lang_height = $('.full_translation').height() + 38,
-        scroll_amount = $(document).scrollTop();
-
-    if ( scroll_amount > lang_height) {
-        $("#navbar-flex-fix").addClass('navbar-fixed-top');
-    }
-    else {
-        $("#navbar-flex-fix").removeClass('navbar-fixed-top');
-    }
-};
 
 Refucomm.show_pdf_languages = function() {
     $('.pdf_name').click(function() {
@@ -33,9 +15,22 @@ Refucomm.show_pdf_languages = function() {
     });
 };
 
+Refucomm.fix_wrap_height = function() {
+    var max_group_height = 0;
+    $('.fixed-height').each(function() {
+        var this_height = $(this).height();
+        if (this_height > max_group_height){
+            max_group_height = this_height
+        }
+    })
+
+    $('.fixed-height').each(function() {
+        $(this).height(max_group_height);
+    })
+}
+
 $(document).ready(function() {
-    Refucomm.top_nav_shim();
     Refucomm.header_wrap();
-    $(window).scroll(Refucomm.navbar_fix_on_scroll);
     Refucomm.show_pdf_languages();
+    Refucomm.fix_wrap_height();
 });

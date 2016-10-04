@@ -4,7 +4,15 @@ RefucommLang.change_language = function() {
   var lang_code = $(this).data('lang');
   RefucommLang.set_language_cookie(lang_code);
   RefucommLang.record_language_event(lang_code);
-  location.reload();
+  
+  var link_href = $(this).attr('href');
+
+  if (link_href) {
+        window.location.href = link_href;
+    }
+  else {
+      location.reload();
+    }
 };
 
 RefucommLang.record_language_event = function(lang) {
