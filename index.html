@@ -75,11 +75,11 @@ layout: home
             <h2>Newest Videos</h2>
 
             {% for row in site.data.new_content.videos %}
-                <ul class="row" id="new-vidoes">
+                <ul class="row new-vidoes">
                     {% for video in row.videos %}
                     <li class="col-sm-4 col-xs-12 text-center">
                         <a href="{{ video.href }}">
-                            <img src="{{ video.thumbnail }}" class="video_thumbnail">
+                            <img src="{{ video.thumbnail }}" class="video_thumbnail" alt="{{ video.name }}">
                             <p>{{ video.name }}</p>
                         </a>
                     </li>
