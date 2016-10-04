@@ -78,7 +78,7 @@ layout: home
 
             <ul class="row new-vidoes">
                 {% for video in site.data.new_content.videos %}
-                <li class="col-sm-4 col-xs-12 text-center fixed-height">
+                <li class="col-sm-4 col-xs-12 text-center">
                     <a href="{{ video.href }}">
                         <img src="{{ video.thumbnail }}" class="video_thumbnail" alt="{{ video.name }}">
                         <p>{{ video.name }}</p>
@@ -92,7 +92,7 @@ layout: home
 
             <ul class="row new-vidoes">
                 {% for video in site.data.new_content.audios %}
-                <li class="col-sm-4 col-xs-12 text-center fixed-height">
+                <li class="col-sm-4 col-xs-12 text-center">
                     <a href="{{ video.href }}">
                         <img src="{{ video.thumbnail }}" class="video_thumbnail" alt="{{ video.name }}">
                         <p>{{ video.name }}</p>
@@ -118,11 +118,11 @@ layout: home
             <h2>Coming soon</h2>
 
             <ul class="row">
-                <li><p>Information about the Syria fast Track Process</p></li>
-                <li><p>Information about relocation and counties you may be relocated to!</p></li>
-                <li><p>RefuComm Volunteer Training!</p></li>
-                <li><p>RefuComm workshops for refugees on preparing for the asylum interview! </p></li>
-                <li><p>RefuComm Educational resources for language teaching and language learning</p></li>
+                <li class="col-xs-12"><p>Information about the Syria fast Track Process</p></li>
+                <li class="col-xs-12"><p>Information about relocation and counties you may be relocated to!</p></li>
+                <li class="col-xs-12"><p>RefuComm Volunteer Training!</p></li>
+                <li class="col-xs-12"><p>RefuComm workshops for refugees on preparing for the asylum interview! </p></li>
+                <li class="col-xs-12"><p>RefuComm Educational resources for language teaching and language learning</p></li>
             </ul>
 
         </div>
