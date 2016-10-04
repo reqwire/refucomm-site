@@ -4,9 +4,9 @@
     <h2 id="{{section.title | slugify}}">{{ section.title }}</h2>
     <ul class="link_list">
     {% for link in section.links %}
-        <li id="{{section.title | slugify}}_{{ link.name | slugify }}">
+        <li>
             {% if link.type == 'pdf' %}
-                <h3>
+                <h3 id="{{section.title | slugify}}_{{ link.name | slugify }}">
                     <a class="pdf_name">
                         {{ link.name }}
                     </a>
@@ -23,7 +23,7 @@
                 {% endfor %}
                 </ul>
             {% elsif link.type == 'website' %}
-                <h3>
+                <h3 id="{{section.title | slugify}}_{{ link.name | slugify }}">
                     <a href="{{ link.href }}">
                         {{ link.name }}
                     </a>
