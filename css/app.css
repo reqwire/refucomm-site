@@ -295,3 +295,7 @@ span.header_icon {
     background: #eee;
     margin-bottom: 2px;
 }
+
+#header-lg-logo {
+    margin: 0 15px;
+}
