@@ -290,3 +290,8 @@ span.header_icon {
 .video_thumbnail {
     width: 75%;
 }
+
+.btn-shaded {
+    background: #eee;
+    margin-bottom: 2px;
+}
