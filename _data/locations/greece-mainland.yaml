@@ -95,6 +95,9 @@ sections:
         type: pdf
         languages:
           - en
+       -name: Employment, Social Affairs and Inclusion
+        type: website
+        href: http://ec.europa.eu/social/main.jsp?catId=858&langId=en
       - name: Website of the Greek Asylum Office
         type: website
         href: http://asylo.gov.gr/en/?page_id=471
