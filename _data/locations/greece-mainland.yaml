@@ -91,6 +91,10 @@ sections:
           - en
           - el
           - fa
+      - name: The new Greek Social Security system
+        type: pdf
+        languages:
+          - en
       - name: Website of the Greek Asylum Office
         type: website
         href: http://asylo.gov.gr/en/?page_id=471
@@ -289,9 +293,15 @@ sections:
       - name: Psychological support
         type: website
         href: http://refugees.gr/en1/wp-content/uploads/2016/06/Psychological-Support.pdf
+      - name: Psychological care
+        type: website
+        href: http://www.refugeetrauma.org/
       - name: Doctors without Borders clinic
         type: website
         href: https://www.google.gr/maps/place/Solomou+133,+Athina+104+32/@37.9873952,23.7254075,17z/data=!3m1!4b1!4m16!1m10!4m9!1m6!1m2!1s0x14a1bd31dd73ee81:0x86b0a6d5a7ba150a!2sSolomou+133,+Athina+104+32!2m2!1d23.7275962!2d37.9873952!1m0!3e2!3m4!1s0x14a1bd31dd73ee81:0x86b0a6d5a7ba150a!8m2!3d37.9873952!4d23.7275962
+      - name: Breastfeeding support
+        type: website
+        href: http://nurtureprojectinternational.org/
       
       - name: Education
         type: subheading
@@ -313,6 +323,9 @@ sections:
       - name: Accomodation
         type: website
         href: http://refugees.gr/en1/wp-content/uploads/2016/06/Accommodation.pdf
+      - name: AirBnB Application for refugees in Greece
+        type: website
+        href: http://refugees-welcome.gr/register-as-a-refugee/
 
       - name: Travel
         type: subheading
@@ -322,6 +335,9 @@ sections:
       - name: Decisions on travel documents
         type: website
         href: http://asylo.gov.gr/en/wp-content/uploads/2016/08/DecisionsTDV-12.08.16.pdf
+      - name: Passport and visa checker for travel to other countries
+        type: website
+        href: http://www.iatatravelcentre.com/passport-visa-health-travel-document-requirements.htm
 
       - name: Food and clothing
         type: subheading
@@ -388,6 +404,9 @@ sections:
       - name: Volunteering in Greece
         type: website
         href: http://www.greecevol.info
+      - name: Psychological care
+        type: website
+        href: http://www.refugeetrauma.org/
 
   - title: News sources
     icon: fa fa-newspaper-o
