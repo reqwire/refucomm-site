@@ -91,6 +91,13 @@ sections:
           - en
           - el
           - fa
+      - name: Rights of Beneficiaries of International Protection flowcharts
+        type: pdf
+        languages:
+          - ar
+          - en
+          - fa
+          - fr
       - name: The new Greek Social Security system
         type: pdf
         languages:
