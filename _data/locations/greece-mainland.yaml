@@ -95,7 +95,7 @@ sections:
         type: pdf
         languages:
           - en
-       -name: Employment, Social Affairs and Inclusion
+      - name: Pension rights, unemployment benefits, family benefits and other social security rights
         type: website
         href: http://ec.europa.eu/social/main.jsp?catId=858&langId=en
       - name: Website of the Greek Asylum Office
@@ -360,6 +360,16 @@ sections:
           - kmj
           - ku
           - ur
+
+      - name: Social benefits
+        type: subheading
+      - name: The new Greek Social Security system
+        type: pdf
+        languages:
+          - en
+      - name: Pension rights, unemployment benefits, family benefits and other social security rights
+        type: website
+        href: http://ec.europa.eu/social/main.jsp?catId=858&langId=en
 
       - name: Legal help
         type: subheading
