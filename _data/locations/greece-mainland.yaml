@@ -98,6 +98,10 @@ sections:
           - en
           - fa
           - fr
+      - name: Syria Fast track
+        type: pdf
+        languages:
+          - en
       - name: The new Greek Social Security system
         type: pdf
         languages:
