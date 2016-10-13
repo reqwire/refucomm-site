@@ -338,6 +338,9 @@ sections:
       - name: Accomodation
         type: website
         href: http://refugees.gr/en1/wp-content/uploads/2016/06/Accommodation.pdf
+      - name: Emergency Accomodation
+        type: website
+        href: http://www.ekka.org.gr/EKKA!show.action?lang=en
       - name: AirBnB Application for refugees in Greece
         type: website
         href: http://refugees-welcome.gr/register-as-a-refugee/
