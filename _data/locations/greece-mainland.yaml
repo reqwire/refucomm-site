@@ -80,6 +80,7 @@ sections:
           - ar
           - en
           - fa
+          - ur
       - name: Full registration appointment list until end of April 2017
         type: pdf
         languages:
@@ -217,6 +218,7 @@ sections:
         languages:
           - ar
           - en
+          - el
           - fa
           - fr
           - ur
@@ -250,7 +252,9 @@ sections:
         languages:
           - ar
           - en
+          - el
           - fa
+          - ur
 
   - title: Vulnerable people
     icon: fa fa-diamond
@@ -293,6 +297,7 @@ sections:
           - en
           - fa
           - pa
+          - ur
       - name: Medical support
         type: website
         href: http://refugees.gr/en1/wp-content/uploads/2016/06/Medical-Support.pdf
