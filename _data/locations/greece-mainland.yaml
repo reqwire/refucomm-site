@@ -383,6 +383,9 @@ sections:
           - kmj
           - ku
           - ur
+      - name: Refugees Work Website
+        type: website
+        href: http://www.refugeeswork.com
 
       - name: Social benefits
         type: subheading
@@ -401,7 +404,7 @@ sections:
         languages:
           - en
 
-      - name: transport
+      - name: Transport
         type: subheading
       - name: Public transport for refugees
         type: website
@@ -427,6 +430,12 @@ sections:
       - name: Khora Community Center
         type: website
         href: https://www.facebook.com/KhoraAthens
+      - name: Refugee Mentoring
+        type: website
+        href: http://www.rafiqi.net
+      - name: Refugees Work
+        type: website
+        href: http://www.refugeeswork.com
 
   - title: Information for volunteers
     icon: fa fa-info
